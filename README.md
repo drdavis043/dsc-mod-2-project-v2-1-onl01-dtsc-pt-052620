@@ -64,7 +64,7 @@ Finally because we had a high number of features that were not regularly distrib
 
 Our next model generated a significantly higher R-Squared value of .645, but we believe further utilization of our log transformations will increase it even further.
 
-![Model1](Images/Model1.png)
+![Model_1](Images/Model_1.png)
 
 ## The Logarithmic Model
 
