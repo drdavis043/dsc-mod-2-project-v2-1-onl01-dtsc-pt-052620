@@ -27,23 +27,23 @@ Our first step was to import, explore, clean and combine the following datasets.
 
 After we coerced the data into one clean dataframe we checked for a normal distribution and a linear correlation of each variable to the Estimated 2020 Price. Below are the variables that fit our assumptions and although the presence of link alone was not an initial predictor we will later consider tranformations and interactions to further examine this possibility.
 
-![Bedrooms](images/Bedrooms.png)
+![Bedrooms](Images/Bedrooms.png)
 
-![Bathrooms](images/Bathrooms.png)
+![Bathrooms](Images/Bathrooms.png)
 
-![sqft_above](images/sqft_above.png)
+![sqft_above](Images/sqft_above.png)
 
-![sqft_living](images/sqft_living.png)
+![sqft_living](Images/sqft_living.png)
 
-![sqft_living15](images/sqft_living15.png)
+![sqft_living15](Images/sqft_living15.png)
 
-![grade](images/grade.png)
+![grade](Images/grade.png)
 
 ### Assumption Model
 
 Our initial model generated a R-Squared value of .505
 
-![Assumption_Model](images/Assumption_Model.png)
+![Assumption_Model](Images/Assumption_Model.png)
 
 ## Model Refinement
 
@@ -58,19 +58,19 @@ In addition to addressing multicollinearity we used the interactions of several 
    
 Finally because we had a high number of features that were not regularly distributed, we used logarithmic transformation to create additional features, and then analyzed the correlations between all measures.
 
-![Corrmap](images/Corrmap.png)
+![Corrmap](Images/Corrmap.png)
 
 ## The Adapted Model
 
 Our next model generated a significantly higher R-Squared value of .645, but we believe further utilization of our log transformations will increase it even further.
 
-![Model1](images/Model1.png)
+![Model1](Images/Model1.png)
 
 ## The Logarithmic Model
 
 Our final model produced an even higher R-Squared value of .757 a drastic improvement from our assumptive model and even our adapted model.
 
-![Final_Model](images/Final_Model.png)
+![Final_Model](Images/Final_Model.png)
 
 ## Future Considerations
 
